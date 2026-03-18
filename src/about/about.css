@@ -1,0 +1,23 @@
+.about-section {
+  background: #f8f9fa;
+  border-radius: 15px;
+}
+
+.about-img {
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+/* Button */
+.btn-primary {
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}

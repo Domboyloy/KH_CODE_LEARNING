@@ -1,0 +1,26 @@
+/* Navbar link hover */
+.navbar .nav-link:hover {
+  color: #ffd700 !important; /* gold color */
+  transition: 0.3s;
+}
+
+/* Dropdown item hover */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #0d6efd; /* Bootstrap primary */
+  color: white;
+}
+
+/* Brand hover */
+.navbar-brand:hover {
+  color: #ffd700 !important;
+}
+
+/* Button hover */
+.btn:hover {
+  opacity: 0.8;
+}
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

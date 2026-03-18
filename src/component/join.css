@@ -1,0 +1,35 @@
+.join-section {
+  background: linear-gradient(135deg, #f8f9fa, #e9f7ff);
+  border-radius: 15px;
+}
+
+.join-section h1 {
+  font-size: 2.5rem;
+}
+
+.join-section p {
+  font-size: 1rem;
+  max-width: 500px;
+}
+
+.join-img {
+  max-width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.join-img:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons hover effect */
+.btn-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.btn-outline-secondary:hover {
+  transform: translateY(-2px);
+}
